@@ -1,0 +1,119 @@
+body {
+    background-image:linear-gradient(#fae62d, #f7b44f, #f25e8a);
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.a-card {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 5px 10px #888888;
+    height: fit-content;
+    margin-bottom: 10px !important;
+}
+
+.artists {
+    margin: 50px 0 50px 0;
+    overflow-x: auto;
+}
+
+.row{
+    flex-wrap: nowrap;
+}
+
+.a-card-img-top {
+    height: 266px;
+    width: 266px;
+}
+
+.a-card-name {
+    margin: 0px 0px -10px 50px;
+}
+
+.t-card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.track {
+       flex: 0 0 32%;
+       height: 250px;
+       width: 34px;
+}
+
+.tracks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.artist {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.load{
+    margin-left: 100px;
+}
+
+.offline{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    margin: 6% 0 0 32%;
+}
+
+.liked{
+    color: red;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.avatar-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.avatar {
+    flex: 0 0 21%;
+    height: 250px;
+    width: 34px;
+}
+
+.avatares {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
